@@ -1,0 +1,44 @@
+/*
+Settings
+*/
+
+//Mixins
+@mixin transition { transition:.5s; }
+
+//Colors
+$snow:#F2F6F9;
+
+//Resets
+* {
+  text-decoration:none;
+  outline:0;
+  padding:0;
+  margin:0;
+}
+img {
+  max-width:100%;
+}
+
+//Html
+html {
+  scroll-behavior:smooth;
+}
+
+//Titles
+h1,h2,h3,h4,h5,h6 {
+  font-style:normal;
+}
+
+//Links
+a {
+  @include transition;
+  outline:0 !important;
+  &:hover {
+    color:blue;
+  }
+}
+
+//Texts
+p {
+
+}
