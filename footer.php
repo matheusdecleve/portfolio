@@ -1,6 +1,6 @@
    
 	<!-- Main JS -->
-	<script src="build/js/main.js"></script>
+	<script src="build/script/main.js"></script>
 
 </body>
 </html>

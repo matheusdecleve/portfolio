@@ -26,10 +26,10 @@
 	<meta name="twitter:image" content="screenshot.jpg" />
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="build/img/favicon-apple.png">
-	<link rel="icon" href="build/img/favicon.png" type="image/png">
-	
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="build/image/favicon-apple.png">
+	<link rel="icon" href="build/image/favicon.png" type="image/png">
+
 	<!-- Style -->
-	<link rel="stylesheet" href="build/css/main.css">	
+	<link rel="stylesheet" href="build/style/main.css">	
 </head>
 <body>
