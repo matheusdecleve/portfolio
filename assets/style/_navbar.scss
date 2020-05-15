@@ -1,3 +1,51 @@
 /*
 Main navbar
 */
+
+.navbar {
+  display:flex;
+  flex-wrap:wrap;
+  &__logo {
+    width:20%;
+    &__icon {
+      width:80px;
+      height:120px;
+      background:$blue;
+      position:relative;
+      span {
+        position:absolute;
+        left:13px;
+        bottom: 0;
+        color:white;
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 35px;
+      }
+    }
+  }
+  &__nav {
+    width:70%;
+    height:120px;    
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;    
+    ul {
+      display:flex;
+      li {
+        padding: 32px;
+      }
+    }
+  }
+  &__lang {
+    width:10%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center; 
+    ul {
+      display:flex;
+      li {
+        padding:8px;
+      }
+    }
+  }  
+}

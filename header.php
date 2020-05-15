@@ -33,3 +33,10 @@
 	<link rel="stylesheet" href="build/style/main.css">	
 </head>
 <body>
+
+<div class="cursor-dot-outline"></div>
+<div class="cursor-dot"></div>
+
+<header>
+	<?php include('navbar.php'); ?>
+</header>

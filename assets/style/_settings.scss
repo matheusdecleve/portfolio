@@ -6,11 +6,14 @@ Settings
 @mixin transition { transition:.5s; }
 
 //Colors
-$snow:#F2F6F9;
+$black:#0b0c0d;
+$gray:#717c7d;
+$blue:#1544c0;
 
 //Resets
 * {
   text-decoration:none;
+  box-sizing: border-box;
   outline:0;
   padding:0;
   margin:0;
@@ -22,23 +25,101 @@ img {
 //Html
 html {
   scroll-behavior:smooth;
+  cursor:none;
+}
+
+//Cursor
+.cursor-dot, .cursor-dot-outline {
+  pointer-events:none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  border-radius:50%;
+  opacity:0;
+  transform:translate(-50%, -50%);
+  transition:opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.cursor-dot {
+  $size:8px;
+  width:$size;
+  height:$size;
+  background-color:$blue;
+}
+.cursor-dot-outline {
+  $size:60px;
+  width:$size;
+  height:$size;
+  background-color:rgba($gray, .2);
 }
 
 //Titles
 h1,h2,h3,h4,h5,h6 {
   font-style:normal;
+  color:#0b0c0d;
+}
+
+.display {
+  font-size:68px;
+  line-height:80px;
+  padding:40px 0 20px 0;
 }
 
 //Links
 a {
   @include transition;
   outline:0 !important;
+  color:$black;
+  font-family:monospace;
+  cursor:none;
   &:hover {
-    color:blue;
+    color:$blue;
+  }
+}
+
+.link {
+  display:inline-block;
+  padding: 18px 26px;
+  margin: 40px 0;
+  border: solid 1px #dedede;
+  @include transition;
+  &:hover {
+    border-color:$blue;
   }
 }
 
 //Texts
 p {
+  font-size:21px;
+  line-height:36px;
+}
 
+//Detail title
+.detail {
+  font-family:monospace;
+  font-size:1rem;
+  &:before {      
+    content:"";
+    display:inline-block;
+    width:48px;
+    height:1px;
+    right:16px;
+    margin-left:16px;
+    position:relative;
+    vertical-align:middle;      
+    background-color:rgba(190,199,192,.4);
+  }
+}
+
+//Lists
+ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+//Main container
+.container {
+  width:1200px;
+  max-width:83%;
+  margin:auto;
 }
