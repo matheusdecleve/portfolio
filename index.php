@@ -4,15 +4,16 @@
 
   <!-- Hero section -->
   <div class="container hero">
-    <p class="detail" href="#!">Matheus Decleve</p>
-    <h1 class="display">Bringing intentional brands and websites to life for big thinkers and visionary founders.</h1>
+    <p class="detail" href="#!">Sorry for the inconvenience</p>
+    <h1 class="display">Under maintenance</h1>
+    <!-- <h1 class="display">Bringing intentional brands and websites to life for big thinkers and visionary founders.</h1> -->
   </div>
 
   <!-- Image section -->
-  <!-- <img src="build/image/about.jpg" alt=""> -->
+  <!-- <img src="build/image/green.jpg" alt=""> -->
 
   <!-- About section -->
-  <div class="container about">
+  <!-- <div class="container about">
     <div class="about__picture">
       <img src="build/image/matheus.jpg" alt="">
     </div> 
@@ -22,10 +23,10 @@
       <p>Nice to meet you, my name is Matheus Decleve i'm front-end developer based in São Paulo/Brazil, my goal is to create digital solutions that improve the results and performance of your business. Innovative websites developed completely from scratch with the latest technologies, always thinking about performance, design and usability.</p>
       <a class="link" href="#!">See my projects</a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Projects section -->
-  <div class="container projects">
+  <!-- <div class="container projects">
     <div class="projects__header">
       <p class="detail" href="#!">Recent projects</p>
       <h1 class="display">Always thinking in<br>performance and results</h1>     
@@ -34,7 +35,7 @@
     <div class="projects__items">
       
     </div>
-  </div>
+  </div> -->
   
 
 </main>

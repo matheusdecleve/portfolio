@@ -7,21 +7,8 @@ Main navbar
   flex-wrap:wrap;
   &__logo {
     width:20%;
-    &__icon {
-      width:80px;
-      height:120px;
-      background:$blue;
-      position:relative;
-      span {
-        position:absolute;
-        left:13px;
-        bottom: 0;
-        color:white;
-        font-size: 3.5rem;
-        font-weight: bold;
-        line-height: 35px;
-      }
-    }
+    display:flex;
+    align-items:center;    
   }
   &__nav {
     width:70%;

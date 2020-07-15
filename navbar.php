@@ -1,9 +1,7 @@
 <div class="container">
   <div class="navbar">
     <div class="navbar__logo">
-      <div class="navbar__logo__icon">
-        <span></span>
-      </div>
+      <img src="build/image/logo.png" alt="">
     </div>
     <div class="navbar__nav">
       <ul>
